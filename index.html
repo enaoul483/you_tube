@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>You tube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>You tube</h1>
+</header>
+
+<section class="upload">
+  <h2>Publier une vidéo</h2>
+  <input type="text" id="title" placeholder="Titre de la vidéo">
+  <input type="file" id="videoFile" accept="video/*">
+  <button onclick="publishVideo()">Publier</button>
+</section>
+
+<section class="videos">
+  <h2>Vidéos</h2>
+  <div id="videoList"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
